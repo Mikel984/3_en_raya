@@ -1,0 +1,96 @@
+*{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(36, 25, 65);
+    user-select: none;
+    background-color: rgb(211, 215, 218);
+}
+#header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4em;
+    height: 6em;
+    width: 70%;
+    margin: auto;
+    border-bottom: 3px solid rgb(36, 25, 65);
+}
+h1{
+    font-weight: 860;   
+}
+#board{
+    display: flex;
+    justify-content: center;
+}
+#shiftScreen{
+    margin-top: 4em;
+
+    width: 15% ;
+    height: 13rem;
+    text-align: center;
+    
+}
+h2{
+   
+    color: rgb(36, 25, 65);
+}
+#turn{
+    width: 99% ;
+    height: 7rem;
+    font-size: 7rem;
+    color: rgb(36, 25, 65);
+}
+#text{
+    color: rgb(36, 25, 65);
+    margin-right: 0.1rem;
+}
+#squares{
+    width: 45%;
+    margin-top: 7em;
+    margin-right: 15%;
+    display: grid;
+    grid-template-columns: 0fr 0fr 0fr;
+    justify-content: center;
+}
+.square{
+    width: 10rem;  
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    color: rgb(28, 00, 34);
+    font-weight: bold;
+}
+.top{
+    border-bottom: 0.4rem solid rgb(36, 25, 65);
+}
+.middel{
+    border-left: 0.4rem solid rgb(36, 25, 65);
+    border-right: 0.4rem solid rgb(36, 25, 65);
+}
+.bottom{
+    border-top: 0.4rem solid rgb(36, 25, 65);
+}
+.winner{
+    background-color: rgb(150, 150, 8);
+}
+dialog{
+    margin: auto;
+    text-align: center;
+    border-radius: 20%;
+    height: 13rem ;
+    width: 15rem;
+    background-color: white;
+}
+h3{
+    background-color: white;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: rgb(66, 59, 59);
+}
+img{
+    height: 6rem;
+    width: 6rem;
+}
+  
